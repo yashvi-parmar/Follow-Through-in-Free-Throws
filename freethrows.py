@@ -329,7 +329,7 @@ st.header("Parting Observations")
 st.markdown("""
 While working on this analysis, I was reflecting on some insights I gathered during the Raptors vs. Celtics game.
 Specifically, I observed that some players released their free throws with a straight upward motion (Al Horford), while others exhibited a slight forward movement (Chris Boucher). 
-Comparing these observations with the data, it became apparent that the forward motion was consistently present during successful shots, whereas missed baskets 
+Comparing these observations with the data, it became apparent that the forward motion was less prominent during successful shots, whereas missed baskets 
 showed more variance in this regard. For this particular participant, there appears to be less forward motion during successful shots.
 
 Another key moment that stood out during the game was in the fourth quarter, when RJ Barrett had an opportunity for a three-point play but missed the free throw with about 2
