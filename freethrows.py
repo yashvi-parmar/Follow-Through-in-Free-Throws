@@ -1,15 +1,10 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-from scipy.signal import argrelextrema, find_peaks
 import plotly.graph_objects as go
 import plotly.express as px
-import seaborn as sns
-from scipy.stats import wilcoxon
 from scipy.stats import mannwhitneyu
 from scipy.stats import gaussian_kde
-from scipy import stats
 from plotly.subplots import make_subplots
 
 st.set_page_config(
