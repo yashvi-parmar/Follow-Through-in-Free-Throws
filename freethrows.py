@@ -5,6 +5,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 from scipy.stats import mannwhitneyu
 from scipy.stats import gaussian_kde
+
 from plotly.subplots import make_subplots
 
 st.set_page_config(
@@ -223,7 +224,7 @@ st.header("Body Symmetry")
 st.markdown("""
 Next, I wanted to looked at the parts of the body not directly involved during the follow through, was there a difference in made versus missed baskets? For this next visualization, I looked at 
 I looked at the symmetry of the body, by calculating the absolute difference between the right and left hip, ankle, eye and ear in the x direction. I wanted to see if there was a statisically significant difference between hip symmetry in 
-made versus missed baskets. I used a density plot with kernel density estimation due to the non-parametric nature of the data. Ankle symmetry stands out, as the missed baskets have a higher concentration of 
+made versus missed baskets. I used a density plot with kernel density estimation due to the non-parametric nature of the data. Ankle symmetry stands out, as the missed baskets have a higher concentration of points in a particular region. 
 Across the board (Except for the eyes), the made baskets do not have any data points greater than missed baskets in terms of symmetry in the x direction, this suggests that 
 symmetry of the body is important when shooting. For hip symmetry, the peak for made shots is slightly more to the right than missed, this suggests the participant may shoot on a angle, maybe for power? The eye symmetry follows this trend, supporting
 this assumption. 
