@@ -3,6 +3,5 @@ streamlit==1.22.0
 pandas==2.0.3
 plotly==5.15.0
 numpy==1.25.0
-matplotlib==3.7.1
-scipy==1.7.3
+scipy==1.10.0
 
