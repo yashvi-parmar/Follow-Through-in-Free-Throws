@@ -222,7 +222,7 @@ st.divider()
 st.header("Body Symmetry")
     
 st.markdown("""
-Next, I wanted to looked at the parts of the body not directly involved during the follow through, was there a difference in made versus missed baskets? For this next visualization, I looked at 
+Next, I wanted to looked at the parts of the body not directly involved during the follow through, was there a difference in made versus missed baskets? For this next visualization,
 I looked at the symmetry of the body, by calculating the absolute difference between the right and left hip, ankle, eye and ear in the x direction. I wanted to see if there was a statisically significant difference between hip symmetry in 
 made versus missed baskets. I used a density plot with kernel density estimation due to the non-parametric nature of the data. Ankle symmetry stands out, as the missed baskets have a higher concentration of points in a particular region. 
 Across the board (Except for the eyes), the made baskets do not have any data points greater than missed baskets in terms of symmetry in the x direction, this suggests that 
